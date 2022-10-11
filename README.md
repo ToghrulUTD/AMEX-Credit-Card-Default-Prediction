@@ -17,6 +17,6 @@ If successful, you'll help create a better customer experience for cardholders b
 ## Evaluation metric
 The evaluation metric, 𝑀, for this competition is the mean of two measures of rank ordering: Normalized Gini Coefficient, 𝐺, and default rate captured at 4%, 𝐷.
 
-                                                             ** 𝑀=0.5⋅(𝐺+𝐷)**
+                                                             $𝑀=0.5⋅(𝐺+𝐷)$
                                                              
 The default rate captured at 4% is the percentage of the positive labels (defaults) captured within the highest-ranked 4% of the predictions, and represents a Sensitivity/Recall statistic. For both of the sub-metrics 𝐺 and 𝐷, the negative labels are given a weight of 20 to adjust for downsampling. This metric has a maximum value of 1.0.
